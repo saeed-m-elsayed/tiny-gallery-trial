@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/master.css" />
+  </head>
+  <body>
+    <div class="gallery">
+      <div class="images-up">
+        <img onclick="main.src = this.src" src="images/1.png" alt="img" />
+        <img onclick="main.src = this.src" src="images/2.png" alt="img" />
+        <img onclick="main.src = this.src" src="images/3.png" alt="img" />
+        <img onclick="main.src = this.src" src="images/4.png" alt="img" />
+      </div>
+      <div class="main">
+        <img src="images/main.png" alt="img" id="main" />
+      </div>
+      <div class="images-down">
+        <img onpointermove="main.src = this.src" src="images/1.png" alt="img" />
+        <img onpointermove="main.src = this.src" src="images/2.png" alt="img" />
+        <img onpointermove="main.src = this.src" src="images/3.png" alt="img" />
+        <img onpointermove="main.src = this.src" src="images/4.png" alt="img" />
+      </div>
+    </div>
+    <script src="javascript/master.js"></script>
+  </body>
+</html>
